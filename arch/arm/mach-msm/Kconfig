@@ -2043,12 +2043,6 @@ config CPU_VDD_CONTROL
 	  Allows to set the voltage level for each frequency scaling steps from userspace through a sysfs interface.
 	  Krait User Votlage Control
 
-config INTELLI_PLUG
-	bool "Enable intelli-plug cpu hotplug driver"
-	default n
-	help
-	  Generic Intelli-plug cpu hotplug driver for ARM SOCs
-
 config MSM_CPUFREQ_LIMITER
 	tristate "MSM CPU frequency limiter"
 	default n
